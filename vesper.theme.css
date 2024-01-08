@@ -1,0 +1,91 @@
+/**
+ * @name Vesper
+ * @author Igor Bedesqui
+ * @description Orange flavored theme for Discord. Based on the Vesper VSCode theme https://github.com/raunofreiberg/vesper.
+ * @version 0.0.2
+ */
+/* To change the colors, change the variables inside the root {}, do NOT change the @import url() */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+
+/* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker	*/
+
+:root {
+  // VESPER COLORS
+  // Gotta copy paste them for some reason. It's fine.
+  --vspr-bg-base: 16, 16, 16; // #101010
+  --vspr-bg-subtle: 28, 28, 28; // #1c1c1c
+  --vspr-fg-base: 255, 255, 255; // #ffffff
+  --vspr-fg-subtle: 160, 160, 160; // #a0a0a0
+  --vspr-accent: 255, 199, 153; // #ffc799
+  --vspr-fg-err: 255, 128, 128; // #ff8080
+  --vspr-fg-suc: 153, 255, 228; // #99ffe4
+
+  // END VESPER COLORS
+
+  --settingsicons: 0; /*	Use Settings Icons in User Settings: 1 = yes, 0 = no							*/
+  --font: "Geist", "gg sans", "Noto Sans"; /*	General Font												*/
+
+  --accentcolor: 85, 85, 85; /*	Blurple			-	default:	88,101,242		-	hex:	#5865f2		*/
+  --accentcolor2: 85, 85, 85; /*	Boostpink		-	default:	255,115,250		-	hex:	#ff73fa		*/
+  --linkcolor: 255, 199, 153; /*	Link Color		-	default:	0,176,244		-	hex:	#00b0f4		*/
+  --mentioncolor: 255, 199, 153; /*	Highlight Color		-	default:	250,166,26		-	hex:	#faa61a		*/
+  --successcolor: 153, 255, 228; /*	Success Color		-	default:	59,165,92		-	hex:	#3ba55c		*/
+  --warningcolor: 255, 199, 153; /*	Warning Color		-	default:	250,166,26		-	hex:	#faa61a		*/
+  --dangercolor: 255, 128, 128; /*	Danger Color		-	default:	237,66,69		-	hex:	#ed4245		*/
+
+  --textbrightest: 255, 255, 255; /*	Text Color 1		-	default:	255,255,255		-	hex:	#ffffff		*/
+  --textbrighter: 190, 190, 190; /*	Text Color 2		-	default:	220,221,222		-	hex:	#dcddde		*/
+  --textbright: 180, 180, 180; /*	Text Color 3		-	default:	185,187,190		-	hex:	#b9bbbe		*/
+  --textdark: 180, 180, 180; /*	Text Color 4		-	default:	142,146,151		-	hex:	#8e9297		*/
+  --textdarker: 140, 140, 140; /*	Text Color 5		-	default:	114,118,125		-	hex:	#72767d		*/
+  --textdarkest: 126, 126, 126; /*	Text Color 6		-	default:	79,84,92		-	hex:	#4f545c		*/
+
+  --backgroundaccent: 40, 40, 40; /*	Background Accent	-	default:	64,68,75		-	hex:	#40444b		*/
+  --backgroundprimary: 16, 16, 16; /*	Background 1		-	default:	54,57,63		-	hex:	#36393f		*/
+  --backgroundsecondary: 16, 16, 16; /*	Background 2		-	default:	47,49,54		-	hex:	#2f3136		*/
+  --backgroundsecondaryalt: 16, 16, 16; /*	Background 3		-	default:	41,43,47		-	hex:	#292b2f		*/
+  --backgroundtertiary: 16, 16, 16; /*	Background 4		-	default:	32,34,37		-	hex:	#202225		*/
+  --backgroundfloating: 28, 28, 28; /*	Background Elevated	-	default:	24,25,28		-	hex:	#18191c		*/
+}
+
+/* My stuff */
+/* Make text-area in chats transparent */
+.themedBackground__6b1b6 {
+  background: transparent;
+}
+
+/* Reduce space between text area and bottom of the screen */
+.channelTextArea__2e60f {
+  margin-bottom: 12px;
+}
+
+/* Reduce space between last message and text area */
+.scrollerSpacer__9cd32 {
+  height: 16px;
+}
+
+/* Align attach button to the left */
+.sansAttachButton__996a4 {
+  padding-left: 0;
+}
+
+/* Make input in cmdk transparent */
+.input__848cd {
+  background: transparent;
+}
+
+/* Remove padding around cmdk so selected item spans to the edge */
+.quickswitcher_a3d29a {
+  padding: 0;
+}
+
+/* Prevent scroller from extending out of parent */
+.scroller__52ae7 {
+  margin-right: 0;
+}
+
+/* Add padding so protip in dmk doesn't touch the edge */
+.protip__84833 {
+  padding-inline: 10px;
+}
