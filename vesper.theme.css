@@ -7,6 +7,7 @@
 /* To change the colors, change the variables inside the root {}, do NOT change the @import url() */
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 /* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker */
 
@@ -47,6 +48,8 @@
   --backgroundsecondaryalt: 16, 16, 16; /*	Background 3		-	default:	41,43,47		-	hex:	#292b2f */
   --backgroundtertiary: 16, 16, 16; /*	Background 4		-	default:	32,34,37		-	hex:	#202225 */
   --backgroundfloating: 28, 28, 28; /*	Background Elevated	-	default:	24,25,28		-	hex:	#18191c */
+
+  --font-code: "JetBrains Mono", monospace !important;
 }
 
 /* My stuff */
@@ -88,4 +91,21 @@
 /* Add padding so protip in dmk doesn't touch the edge */
 .protip__84833 {
   padding-inline: 10px;
+}
+
+/* Vesper color for code snippets in chat */
+.hljs-selector-class,.hljs-number, .hljs-meta,.hljs-title,.hljs-literal,.hljs-built_in,.hljs-name,.hljs-section {
+    color: #ffc799 !important;
+}
+
+.hljs-attribute,.hljs-title.class_,.hljs,.hljs-attr,.hljs-variable {
+  color: #ffffff !important;
+}
+
+.hljs-selector-pseudo,.hljs-keyword {
+  color: #a0a0a0 !important;
+}
+
+.hljs-string {
+  color: #99ffe4 !important;
 }
