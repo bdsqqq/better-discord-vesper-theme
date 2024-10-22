@@ -102,10 +102,11 @@
   color: #ffffff !important;
 }
 
-.hljs-selector-pseudo,.hljs-keyword {
+.hljs-selector-pseudo,.hljs-keyword,.hljs-type {
   color: #a0a0a0 !important;
 }
 
 .hljs-string {
   color: #99ffe4 !important;
 }
+
