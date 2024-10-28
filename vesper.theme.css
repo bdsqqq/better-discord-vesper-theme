@@ -2,7 +2,7 @@
  * @name Vesper
  * @author Igor Bedesqui
  * @description Orange flavored theme for Discord. Based on the Vesper VSCode theme https://github.com/raunofreiberg/vesper.
- * @version 0.0.2
+ * @version 0.0.3
  */
 /* To change the colors, change the variables inside the root {}, do NOT change the @import url() */
 
@@ -50,6 +50,11 @@
   --backgroundfloating: 28, 28, 28; /*	Background Elevated	-	default:	24,25,28		-	hex:	#18191c */
 
   --font-code: "JetBrains Mono", monospace !important;
+}
+
+code {
+  border: 2px solid #1e1e1e !important;
+  padding: 10px !important;
 }
 
 /* My stuff */
