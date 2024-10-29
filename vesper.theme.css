@@ -107,11 +107,10 @@ code {
   color: #ffffff !important;
 }
 
-.hljs-selector-pseudo,.hljs-keyword,.hljs-type {
+.hljs-selector-pseudo,.hljs-keyword {
   color: #a0a0a0 !important;
 }
 
 .hljs-string {
   color: #99ffe4 !important;
 }
-
