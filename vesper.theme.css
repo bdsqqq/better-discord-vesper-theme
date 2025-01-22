@@ -7,7 +7,7 @@
 /* To change the colors, change the variables inside the root {}, do NOT change the @import url() */
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap');
 
 /* All colors are in RGB format (red, green, blue) use: https://www.google.com/search?q=colorpicker */
 
@@ -49,7 +49,7 @@
   --backgroundtertiary: 16, 16, 16; /*	Background 4		-	default:	32,34,37		-	hex:	#202225 */
   --backgroundfloating: 28, 28, 28; /*	Background Elevated	-	default:	24,25,28		-	hex:	#18191c */
 
-  --font-code: "JetBrains Mono", monospace !important;
+  --font-code: "Geist Mono", monospace !important;
 }
 
 /* My stuff */
@@ -109,4 +109,3 @@
 .hljs-string {
   color: #99ffe4 !important;
 }
-
